@@ -16,7 +16,6 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-color: aquamarine;
 }
 
 .container {
@@ -67,4 +66,15 @@ img {
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.5);
     margin: 50% 10px 0 0;
+}
+
+.intro {
+    background-color: lightgray;
+    font-size: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 300px;
+    font-weight: bold;
 }
