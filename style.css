@@ -10,5 +10,42 @@
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', Arial, sans-serif;
-    background-color: aliceblue;
 }
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: aquamarine;
+}
+
+.container {
+    flex: 1;
+    display: flex;
+}
+
+.containerone {
+    flex: 1;
+    display: flex;
+    background-image: url(img/vincentiu-solomon-ln5drpv_ImI-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.containertwo {
+    flex: 2;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.credits {
+    font-size: 12px;
+    color: white;
+}
+
