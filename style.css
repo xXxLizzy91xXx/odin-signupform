@@ -71,10 +71,55 @@ img {
 .intro {
     background-color: lightgray;
     font-size: 20px;
-    padding: 20px;
+    padding: 10%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 300px;
+    height: 100px;
     font-weight: bold;
+}
+
+.title {
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.formsection {
+    display: flex;
+    justify-content: flex-start;
+    gap: 50px;
+    padding: 30px;
+}
+
+.form {
+    padding: 5% 10%;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#create-account {
+    background-color: #5f0562;
+    color: white;
+    border: 2px solid #5f0562;
+    padding: 1%;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+#create-account:hover {
+    background-color: #5f0562;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.login {
+    color: rgb(69, 69, 69);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.login:hover {
+    color: rgb(28, 28, 28);
+    background-color: rgba(0, 0, 0, 0.2);
 }
