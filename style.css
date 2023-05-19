@@ -49,3 +49,22 @@ footer {
     color: white;
 }
 
+img {
+    width: 20%;
+    height: auto;
+}
+
+.logotitle {
+    font-family: 'Norse', Arial, sans-serif;
+    color: white;
+    font-size: 3em;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 50% 10px 0 0;
+}
